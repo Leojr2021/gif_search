@@ -20,7 +20,7 @@ function search() {
 
   requestURL = `https://api.giphy.com/v1/gifs/search?q=${encodeURI(
     category
-  )}&limit=10&api_key=SqtLnaigBIVNIHzSoKu7HIQecjZlrkn1`;
+  )}&limit=12&api_key=SqtLnaigBIVNIHzSoKu7HIQecjZlrkn1`;
 
   fetch(requestURL)
     .then(function (response) {
